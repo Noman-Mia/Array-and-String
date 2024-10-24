@@ -1,4 +1,5 @@
 <?php
+//indexed array and intro
 $man = array("noman",23,"khan","faruk");
 
 // var_dump($man); //data type check
