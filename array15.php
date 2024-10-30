@@ -46,3 +46,17 @@ list($firstName, $lastName, $age) = $data;
 echo "First Name: $firstName\n";
 echo "Last Name: $lastName\n";
 echo "Age: $age\n";
+
+//range function
+$evenNumbers = range(2, 20, 2);
+print_r($evenNumbers);
+
+//shuffling 
+$numbers = range(1, 10);
+shuffle($numbers);
+print_r($numbers);
+
+//random number
+$randomNumber = mt_rand(1, 100); // Generates a random number between 1 and 100
+echo $randomNumber;
+
